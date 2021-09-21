@@ -1,67 +1,64 @@
-<!doctype html>
+/* Global CSS */
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+*{
+    margin: 0px auto;
+    width: 100%;
+    font-family: sans-serif;
+}
 
-  <!-- Title of the webpage -->
-  <title>Anthony Sellers | Welcome to my Portfolio!</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+.container{
+    display: flex;
+    flex-direction: row;
+}
 
-  <meta property="og:title" content="Anthony Sellers | Welcome to my Porfolio!">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="My name is Anthony Sellers, and welcome to my portfolio and resume site. Email me to get in touch!">
-  <meta property="og:image" content="image.png">
+/* nav style */
 
-  <link rel="icon" href="assets/images/favicon/favicon.png">
+#navH1{
+    display: flex;
+    width: 50%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-around;
+}
 
-  <!-- your external style sheet file name -->
-  <link rel="stylesheet" href="style.css">
+#navH1 h1 a{
+    font-size: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: rgb(60, 91, 175);
+    margin-left: 80px;
+}
 
-</head>
+#nav{
+    display: flex;
+    width: 50%;
+    height: 120px;
+    align-items: center;
+}
 
-<body>
-    <!-- your content here... -->
+/* This media query corrects the navigation for large screens */
+@media only screen and (min-width: 1920px) {
+    #nav {
+        width: 25%;
+    }
+  }
 
-    <!-- Nav -->
-    <div class="container">
-        <div id="navH1">
-            <h1>
-                <a href="#home">AS.</a>
-            </h1>
-        </div>
-        <div id="nav">
-            <ul>
-                <li>
-                    <a href="#home">projects</a>
-                </li>
-                <li>
-                    <a href="#home">skills</a>
-                </li>
-                <li>
-                    <a href="#home">contact</a>
-                </li>
-                <li title="Light mode and dark mode placeholder">
-                    <a href="#home">lmdm</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+#nav ul{
+    list-style: none;
+    display: flex;
+}
 
-    <!-- Banner -->
 
-    <!-- Projects -->
+#nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color:rgb(60, 91, 175);
+    justify-content: flex-end;
+    justify-content: center;
+}
 
-    <!-- Skills -->
-
-    <!-- Contact -->
-
-    <!-- Footer -->
-    
-    <!-- your external js file name -->
-    <script src="scripts.js"></script>
-</body>
-</html>
+#nav ul li:nth-child(4){
+    margin-right: 40px;
+}
