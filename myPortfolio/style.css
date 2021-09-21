@@ -1,1 +1,67 @@
-// Site CSS
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title of the webpage -->
+  <title>Anthony Sellers | Welcome to my Portfolio!</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="Anthony Sellers | Welcome to my Porfolio!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <meta property="og:description" content="My name is Anthony Sellers, and welcome to my portfolio and resume site. Email me to get in touch!">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="assets/images/favicon/favicon.png">
+
+  <!-- your external style sheet file name -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- your content here... -->
+
+    <!-- Nav -->
+    <div class="container">
+        <div id="navH1">
+            <h1>
+                <a href="#home">AS.</a>
+            </h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="#home">projects</a>
+                </li>
+                <li>
+                    <a href="#home">skills</a>
+                </li>
+                <li>
+                    <a href="#home">contact</a>
+                </li>
+                <li title="Light mode and dark mode placeholder">
+                    <a href="#home">lmdm</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Banner -->
+
+    <!-- Projects -->
+
+    <!-- Skills -->
+
+    <!-- Contact -->
+
+    <!-- Footer -->
+    
+    <!-- your external js file name -->
+    <script src="scripts.js"></script>
+</body>
+</html>
