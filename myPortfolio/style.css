@@ -1,17 +1,20 @@
-/* Global CSS */
+/* Global CSS Start */
+/* This CSS is applied to the entire page */
 
 *{
     margin: 0px auto;
     width: 100%;
     font-family: sans-serif;
+    color: rgb(85, 85, 85);
 }
 
 .container{
     display: flex;
     flex-direction: row;
 }
+/* Global CSS End */
 
-/* nav style */
+/* Nav Style Start */
 
 #navH1{
     display: flex;
@@ -62,3 +65,31 @@
 #nav ul li:nth-child(4){
     margin-right: 40px;
 }
+/* Nav Style End */
+
+/* Banner Style Start */
+#banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 60px;
+}
+
+#hi{
+    font-size: 360%;
+}
+
+#myName{
+    color:rgb(60, 91, 175);
+}
+
+#about{
+   text-align: left;
+   padding-top: 20px;
+   line-height: 1.5rem;
+}
+
+/* Banner Style End */
