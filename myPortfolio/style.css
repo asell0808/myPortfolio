@@ -1,6 +1,10 @@
 /* Global CSS Start */
 /* This CSS is applied to the entire page */
 
+body{
+    background-color: #ffffff;
+}
+
 *{
     margin: 0px auto;
     width: 100%;
@@ -53,13 +57,16 @@
     display: flex;
 }
 
+#nav ul li{
+    margin-bottom: 10px;
+}
 
 #nav ul li a{
     display: flex;
+    justify-content: center;
     text-decoration: none;
     color:rgb(60, 91, 175);
-    justify-content: flex-end;
-    justify-content: center;
+    width: 60px;
 }
 
 #nav ul li:nth-child(4){
@@ -90,6 +97,34 @@
    text-align: left;
    padding-top: 20px;
    line-height: 1.5rem;
+}
+
+#resume{
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 80px;
+}
+
+#resumeButton{
+    margin: 20px;
+    padding: 1rem;
+    border: 1.5px solid rgb(60, 91, 175);
+    color: rgb(60, 91, 175);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform .5s all;
+}
+
+#resumeButton:hover{
+    transition: .5s all;
+    background-color:rgb(60, 91, 175); 
+    color: #fff;
+    transform: translateX(100%);
+    animation: left-to-right .5s ease-in;
+}
+
+.resumeIcons{
+
 }
 
 /* Banner Style End */
