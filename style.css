@@ -134,6 +134,7 @@ body{
 
 #occuTitle{
     font-size: 180%;
+    margin-top: -20px;
 }
 
 #about{
@@ -160,12 +161,12 @@ body{
     background-color:rgb(60, 91, 175); 
     text-decoration: none;
     border-radius: 4px;
-    transition: .5s all;
+    transition: .4s all;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 #resumeButton:hover{
-    transition: .5s all;
+    transition: .4s all;
     background-color:#fff; 
     color: rgb(60, 91, 175); ;
 }
@@ -199,6 +200,7 @@ body{
     flex-direction: column;
     display: flex;
     justify-content: center;
+    min-width: 33%;
     text-align: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
@@ -277,7 +279,7 @@ body{
    padding: 16px;
    border: 1px solid rgb(138, 138, 138);
    border-radius: 4px;
-   transition: .4s all;
+   transition: .3s all;
    white-space: nowrap;
    margin: -10px;
    background-color:rgb(60, 91, 175) ;
@@ -288,7 +290,7 @@ body{
 #skillZone li:hover{
     animation: alternate;
     transform: translateY(-4px);
-    transition: .4s all;
+    transition: .3s all;
 }
 /* Skills End */
 
