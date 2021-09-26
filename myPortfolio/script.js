@@ -26,6 +26,8 @@ function lmdm(){
     resumeB();
     resumeIcon1();
     resumeIcon2();
+    //commenting out for now, until line 49 is resolved
+    //dmNav();
 }
 
 function myFunction() {
@@ -42,6 +44,16 @@ function aboutName(){
     var name = document.getElementById('myName');
     name.classList.toggle("dark-modeName");
 }
+
+/*
+This is almost a solution, however, it only changes the 
+first class item and not all of the class items
+
+function dmNav(){
+    const dmNavi = document.querySelectorAll('.dmNav');
+    dmNavi.item(i = (".dmNav")).classList.toggle("dark-mode");
+}
+*/
 
 function darkNav1(){
     var nav1 = document.getElementById('nav1');
@@ -78,9 +90,7 @@ function resumeIcon2(){
     icon2.classList.toggle("dark-mode");
 }
 
-
 //function darkNav(){
 //   var darkN = document.getElementsByClassName('navLmdm');
 //   darkN.classList.toggle("dark-mode");
 //}
-
