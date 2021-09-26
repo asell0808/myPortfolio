@@ -65,7 +65,7 @@
         <div id="banner">
             <h1 id="hi">Hi, I am 
             <span id="myName">Anthony Sellers.</h1>
-            <h2>A Front End Software Engineer</h2>
+            <h2 id="occuTitle">A Front End Software Engineer</h2>
             <p id="about">
                 I am a dynamic servant leader/follower with 4+ years
                  of Software Development, IT, and Project Management
@@ -88,34 +88,34 @@
         <h1>PROJECTS</h1>
         <div id="projectZone">
             <div class="projects">
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex excepturi atque, hic sit numquam explicabo ipsa vitae facilis eius, ab nulla quo optio, similique fugiat itaque voluptas minima veniam?</p>
+                    <h3>Sassy Esty</h3>
+                    <p>A beautiful business website that is fully responsive for all devices. My biggest challenge with this site was the responsive compatibility with all of the different sections.</p>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <a href="">Github</a>
+                    <a href="https://github.com/asell0808/sassyAesthetics">Github</a>
             </div>
             <div class="projects">
-                <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex excepturi atque, hic sit numquam explicabo ipsa vitae facilis eius, ab nulla quo optio, similique fugiat itaque voluptas minima veniam?</p>
+                <h3>Instagram Database Clone</h3>
+                    <p>This is a MySQL project that replicates a good portion of the tables utilized on Instagram. The biggest challenge was organizing the huge amount of data I generated, with Node JS, into queries that made sense.</p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
+                        <li>MySQL</li>
+                        <li>Node JS</li>
+                        <li>Goorm.io</li>
                     </ul>
-                    <a href="">Github</a>
+                    <a href="https://github.com/asell0808/instagram_app/blob/main/instagramApp.sql">Github</a>
             </div>
             <div class="projects">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex excepturi atque, hic sit numquam explicabo ipsa vitae facilis eius, ab nulla quo optio, similique fugiat itaque voluptas minima veniam?</p>
+                <h3>CSS Background Color Generator</h3>
+                <p>This web app generates CSS gradients and displays the code live as the user edits the page using the color selector buttons. My biggest challenge with this project was displaying the CSS as the user edited the buttons. </p>
                 <ul>
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>DOM</li>
                     <li>Javascript</li>
                 </ul>
-                <a href="">Github</a>
+                <a href="https://github.com/asell0808/backgroundColorGenerator">Github</a>
             </div>
             </div>
         </div>  
@@ -125,18 +125,28 @@
         <div id="skillZone">
             <h1>SKILLS</h1>
             <ul>
-                <li>skill 1</li>
-                <li>skill 2</li>
-                <li>skill 3</li>
-                <li>skill 4</li>
-                <li>skill 5</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
             </ul>
             <ul>
-                <li>skill 6</li>
-                <li>skill 7</li>
-                <li>skill 8</li>
-                <li>skill 9</li>
-                <li>skill 10</li>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Node JS</li>
+                <li>APIs</li>
+                <li>Git</li>
+            </ul>
+            <ul>
+                <li>Software Dev</li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
+            </ul>
+            <ul>
+                <li>Computer Science</li>
+                <li>Front End</li>
+                <li>Mobile Dev</li>
             </ul>
         </div>
 
@@ -146,7 +156,15 @@
         <div id="contact">
             <h1>CONTACT ME</h1>
             <div id="resume">
-                <a id="emailMe" href="">email me</a>
+                <!-- modify this form HTML and place wherever you want your form -->
+                <form id="my-form" action="https://formspree.io/f/mvodlepp" method="POST">
+                    <label>Email:</label>
+                    <input type="email" name="email" />
+                    <label>Message:</label>
+                    <input type="text" name="message" />
+                    <button id="my-form-button">Submit</button>
+                    <p id="my-form-status"></p>
+                  </form>
                 <a id="resumeIcon1" class="resumeIcons" href="https://github.com/asell0808">GitHub</a>
                 <a id="resumeIcon2" class="resumeIcons" href="www.linkedin.com/in/anthony-sellers-027b69111">LinkedIn</a>
             </div>
