@@ -1,15 +1,25 @@
 /* Global CSS Start */
 /* This CSS is applied to the entire page */
 
-body{
-    background-color: #ffffff;
+/* CSS Variables */ 
+:root{
+    --lightModeText:rgb(85, 85, 85);
+    --lightModeBGColor:#fff;
+    --darkModeText: #fff;
+    --darkModeBGColor:rgb(68, 62, 94);
 }
 
-*{
+body{
+    background-color: #fff;
     margin: 0px auto;
     width: 100%;
     font-family: sans-serif;
     color: rgb(85, 85, 85);
+}
+
+.dark-mode{
+    background-color: rgb(68, 62, 94);
+    color: rgb(173, 156, 187);
 }
 
 .container{
