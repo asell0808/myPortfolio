@@ -26,6 +26,7 @@ function lmdm(){
     resumeB();
     resumeIcon1();
     resumeIcon2();
+    navWrapper();
     //commenting out for now, until line 49 is resolved
     //dmNav();
 }
@@ -38,6 +39,11 @@ function myFunction() {
 function logo(){
     var logoH1 = document.getElementById('logoH1');
     logoH1.classList.toggle("dark-modeName");
+}
+
+function navWrapper(){
+    var wrap = document.getElementById('navWrap');
+    wrap.classList.toggle("dark-modeNav");
 }
 
 function aboutName(){
