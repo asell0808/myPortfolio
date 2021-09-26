@@ -5,8 +5,13 @@
 :root{
     --lightModeText:rgb(85, 85, 85);
     --lightModeBGColor:#fff;
+    --lightModeNav: color rgb(60, 91, 175);
     --darkModeText: #fff;
     --darkModeBGColor:rgb(68, 62, 94);
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -18,8 +23,14 @@ body{
 }
 
 .dark-mode{
-    background-color: rgb(68, 62, 94);
+    background-color: rgb(68, 62, 94)!important;
     color: rgb(173, 156, 187)!important;
+}
+
+.dark-modeNav{
+    background-color: rgb(68, 62, 94)!important;
+    color: rgb(173, 156, 187)!important;
+    border-bottom: 1px solid rgb(173, 156, 187)!important;
 }
 
 .dark-modeName{
@@ -27,22 +38,30 @@ body{
 }
 
 .dark-modeResume{
-    color: rgb(130, 93, 160)!important;
+    color: rgb(168, 128, 201)!important;
     border: 2px solid rgb(168, 128, 201)!important;
 }
 
 .container{
     display: flex;
-    flex-direction: row;
 }
 /* Global CSS End */
 
 /* Nav Style Start */
 
+#navWrap{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    height: 100px;
+}
+
 #navH1{
     display: flex;
     width: 50%;
-    height: 120px;
+    height: 100px;
     align-items: center;
     justify-content: space-around;
 }
@@ -60,7 +79,7 @@ body{
 #nav{
     display: flex;
     width: 50%;
-    height: 120px;
+    height: 100px;
     align-items: center;
 }
 
@@ -101,7 +120,7 @@ body{
     gap: 40px;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 60px;
+    padding-top: 140px;
 }
 
 #hi{
@@ -119,9 +138,12 @@ body{
 }
 
 #resume{
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
     padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #resumeButton{
@@ -131,20 +153,128 @@ body{
     color: rgb(60, 91, 175);
     text-decoration: none;
     border-radius: 4px;
-    transition: transform .5s all;
 }
 
 #resumeButton:hover{
     transition: .5s all;
     background-color:rgb(60, 91, 175); 
     color: #fff;
-    transform: translateX(100%);
-    animation: left-to-right .5s ease-in;
 }
 
 .resumeIcons{
-    color: var(--lightModeText);
+    color: rgb(60, 91, 175); 
     text-decoration: none;
 }
 
 /* Banner Style End */
+
+/* Projects Start */
+#projectColumn{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+#projectZone{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.projects{
+    /*border: 1px solid  rgb(85, 85, 85);*/
+    text-align: center;
+    height: 300px;
+    transition: .4s all;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.projects:hover{
+    animation: alternate;
+    transform: translateY(-4px);
+    transition: .4s all;
+}
+
+.projects h3, p{
+    padding: 10px;
+}
+
+.projects ul{
+    list-style: none;
+}
+.projects li{
+    float: left;
+    margin: 4px;
+}
+/* Projects End */
+
+/* Skills Start */
+#skillZone{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+    margin-top: 100px;
+}
+
+#skillZone ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#skillZone li{
+   padding: 16px;
+   border: 1px solid rgb(138, 138, 138);
+   border-radius: 4px;
+   transition: .4s all;
+}
+
+#skillZone li:hover{
+    animation: alternate;
+    transform: translateY(-4px);
+    transition: .4s all;
+}
+/* Skills End */
+
+/* Contact Start */
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+    margin-top: 100px;
+}
+
+#contact a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+#emailMe{
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4px;
+}
+/* Contact End */
+
+/* Footer Start */
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding-left:25%;
+    padding-right:25%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/* Footer End */
