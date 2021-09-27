@@ -160,10 +160,14 @@
                 <!-- https://formspree.io/forms/mvodlepp/integration -->
                 <!-- modify this form HTML and place wherever you want your form -->
                 <form id="my-form" action="https://formspree.io/f/mvodlepp" method="POST">
+                  <label for="fName">First Name:</label>
+                    <input type="text" placeholder="Your first name..." id="fName" name="firstname">
+                    <label for="lName">Last Name:</label>
+                    <input type="text" placeholder="Your last name..." id="lName" name="lastname">
                     <label>Email:</label>
-                    <input type="email" name="email" />
+                    <input type="email" placeholder="Your email address..." name="email" />
                     <label>Message:</label>
-                    <input type="text" name="message" />
+                    <input type="text" placeholder="Your message here..." name="message" />
                     <button id="my-form-button">Submit</button>
                     <p id="my-form-status"></p>
                   </form>
