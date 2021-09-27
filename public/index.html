@@ -1,0 +1,183 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Sets the width of the user view based on the device they access the site with -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title of the webpage -->
+  <title>Anthony Sellers | Welcome to my Portfolio!</title>
+  <!-- Description for google and SEO -->
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <!-- Site Author -->
+  <meta name="author" content="By: Anthony Sellers">
+
+  <!-- Title for Tab -->
+  <meta property="og:title" content="Anthony Sellers | Welcome to my Porfolio!">
+  <meta property="og:type" content="website">
+  <!-- Site URL -->
+  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
+  <!-- Description for google and SEO -->
+  <meta property="og:description" content="My name is Anthony Sellers, and welcome to my portfolio and resume site. Email me to get in touch!">
+  <meta property="og:image" content="image.png">
+
+  <!-- Favicon for tab -->
+  <link rel="icon" href="assets/images/favicon/favicon.png">
+
+  <!-- your external style sheet file name -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="body">
+    <!-- your content here... -->
+
+    <!-- Nav -->
+    <div class="container">
+        <div id="navWrap">
+            <div id="navH1">
+                <h1>
+                    <a id="logoH1" href="#banner">AS.</a>
+                </h1>
+            </div>
+            <div id="nav">
+                <ul class="dmNav">
+                    <li>
+                        <a class="dmNav" id="nav1" href="#projectColumn">projects</a>
+                    </li>
+                    <li>
+                        <a class="dmNav" id="nav2" href="#skillZone">skills</a>
+                    </li>
+                    <li>
+                        <a class="dmNav" id="nav3" href="#contact">contact</a>
+                    </li>
+                    <li title="Light mode and dark mode placeholder">
+                        <a class="dmNav" id="nav4" id="lmdm"  onclick="lmdm();" href="#home">lmdm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="container">
+        <div id="banner">
+            <h1 id="hi">Hi, I am 
+            <span id="myName">Anthony Sellers.</h1>
+            <h2 id="occuTitle">A Front End Software Engineer</h2>
+            <p id="about">
+                I am a dynamic servant leader/follower with 4+ years
+                 of Software Development, IT, and Project Management
+                  Experience. I have a B.S. in Software Development,
+                   and a SECRET federal clearance. I am proficient in 
+                   front end development, communication, and responsive 
+                   web/mobile application development. I excel at learning 
+                   new systems and technologies. 
+            </p>
+        </div>
+    </div>
+    <div id="resume">
+        <a id="resumeButton" download href="https://docs.google.com/document/d/1amn3sXKuF9UIHjLA3trSY_HG-e2zQkHXECaTAs22IQo/edit?usp=sharing">resume</a>
+        <a id="resumeIcon1" class="resumeIcons" href="https://github.com/asell0808">GitHub</a>
+        <a id="resumeIcon2" class="resumeIcons" href="www.linkedin.com/in/anthony-sellers-027b69111">LinkedIn</a>
+    </div>
+    <!-- Projects -->
+    <div class="container">
+        <div id="projectColumn">
+        <h1>PROJECTS</h1>
+        <div id="projectZone">
+            <div class="projects">
+                    <h3>Sassy Esty: A Boostrap Site</h3>
+                    <p>A beautiful business website that is fully responsive for all devices. My biggest challenge with this site was the responsive compatibility with all of the different sections.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <a href="https://github.com/asell0808/sassyAesthetics">Github</a>
+            </div>
+            <div class="projects">
+                <h3>Instagram Database Clone</h3>
+                    <p>This is a MySQL project that replicates a good portion of the tables utilized on Instagram. The biggest challenge was organizing the huge amount of data I generated, with Node JS, into queries that made sense.</p>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Node JS</li>
+                        <li>Goorm.io</li>
+                    </ul>
+                    <a href="https://github.com/asell0808/instagram_app/blob/main/instagramApp.sql">Github</a>
+            </div>
+            <div class="projects">
+                <h3>CSS Background Color Generator</h3>
+                <p>This web app generates CSS gradients and displays the code live as the user edits the page using the color selector buttons. My biggest challenge with this project was displaying the CSS as the user edited the buttons. </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>DOM</li>
+                    <li>Javascript</li>
+                </ul>
+                <a href="https://github.com/asell0808/backgroundColorGenerator">Github</a>
+            </div>
+            </div>
+        </div>  
+    </div>
+
+    <!-- Skills -->
+        <div id="skillZone">
+            <h1>SKILLS</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
+            </ul>
+            <ul>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Node JS</li>
+                <li>APIs</li>
+                <li>Git</li>
+            </ul>
+            <ul>
+                <li>Software Dev</li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
+            </ul>
+            <ul>
+                <li>Computer Science</li>
+                <li>Front End</li>
+                <li>Mobile Dev</li>
+            </ul>
+        </div>
+
+
+    <!-- Contact -->
+    <div class="container">
+        <div id="contact">
+            <h1>CONTACT ME</h1>
+            <div id="resume">
+                <!-- https://formspree.io/forms/mvodlepp/integration -->
+                <!-- modify this form HTML and place wherever you want your form -->
+                <form id="my-form" action="https://formspree.io/f/mvodlepp" method="POST">
+                    <label>Email:</label>
+                    <input type="email" name="email" />
+                    <label>Message:</label>
+                    <input type="text" name="message" />
+                    <button id="my-form-button">Submit</button>
+                    <p id="my-form-status"></p>
+                  </form>
+                <a id="resumeIcon1" class="resumeIcons" href="https://github.com/asell0808">GitHub</a>
+                <a id="resumeIcon2" class="resumeIcons" href="www.linkedin.com/in/anthony-sellers-027b69111">LinkedIn</a>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <h2>Created by Anthony Sellers :)</h2>
+    </div>
+    
+    <!-- your external js file name -->
+    <script src="script.js"></script>
+</body>
+</html>
