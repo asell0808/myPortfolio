@@ -1,3 +1,23 @@
+// https://console.firebase.google.com/
+// Run this To host your site with Firebase Hosting, you need the Firebase CLI (a command line tool).
+// Run the following npm command to install the CLI or update to the latest CLI version.
+// $ npm install -g firebase-tools
+
+// Deploy to firebase hosting
+
+// sign in to google
+// $ firebase login
+//initiate project 
+// $ firebase init
+// When you’re ready, deploy your web app
+//Put your static files (e.g., HTML, CSS, JS) in your app’s deploy directory (the default is “public”). 
+//Then, run this command from your app’s root directory:
+//$ firebase deploy
+
+
+
+
+
 // Firebase imports
 
 // Import the functions you need from the SDKs you need
