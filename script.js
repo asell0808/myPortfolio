@@ -14,10 +14,6 @@
 //Then, run this command from your app’s root directory:
 //$ firebase deploy
 
-
-
-
-
 // Firebase imports
 
 // Import the functions you need from the SDKs you need
