@@ -323,26 +323,40 @@ body{
 }
 
 #contactForm  input{
-    margin: 10px 0px 30px 0px;
+    margin: 10px 0px 24px 0px;
     border-radius: 4px;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 70px 10px 10px;
     border: none;
 }
 
 #my-form-button{
-    padding: 10px 80px 10px 80px;
+    padding: 10px 0px 10px 0px;
     border: none;
     background-color:rgb(60, 91, 175) ;
     color: #fff;
     border-radius: 4px;
     font-size: 120%;
     cursor: pointer;
+    width: 101%;
+    transition: .4s all;
+    border: 2px solid rgb(60, 91, 175)
+}
+
+#my-form-button:hover{
+    transition: .4s all;
+    background-color: #fff;
+    color: rgb(60, 91, 175);
+    border: 2px solid rgb(60, 91, 175);
 }
 
 #formMessage{
-    white-space: pre-line;
-    
+    height: 120px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 70px 0px 10px;
 }
+
 /* Contact End */
 
 /* Footer Start */
