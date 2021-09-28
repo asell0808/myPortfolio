@@ -32,6 +32,7 @@ html{
     width: 24px;
     line-height: 32px;
     text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 #scrollKey:hover{
@@ -39,6 +40,7 @@ html{
     background-color: rgb(85, 85, 85);
     color: #fff;
     border: 2px solid rgb(85, 85, 85);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 body{
