@@ -20,11 +20,11 @@ html{
     font-size: 200%;
     color: rgb(60, 91, 175);
     z-index: 2;
-    bottom: .75rem;
-    right: .75rem;
+    bottom: 1.25rem;
+    right: 1.25rem;
     text-decoration: none;
-    padding: 20px;
-    border-radius: 60px;
+    padding: 10px;
+    border-radius: 50%;
     background-color: #fff;
     border: 2px solid grey;
 }
