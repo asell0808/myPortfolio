@@ -134,20 +134,20 @@ body{
 
 #occuTitle{
     font-size: 180%;
-    margin-top: -20px;
+    margin-top: -1px;
 }
 
 #about{
    text-align: left;
    padding-top: 20px;
    line-height: 1.5rem;
-   margin-top: -20px;
+   margin-top: -10px;
 }
 
 #resume{
     padding-left: 30%;
     padding-right: 30%;
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
