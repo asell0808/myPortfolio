@@ -16,7 +16,7 @@ html{
 }
 
 #scrollKey{
-    position: absolute;
+    position: fixed;
     font-size: 200%;
     color: rgb(60, 91, 175);
     z-index: 2;
