@@ -28,6 +28,7 @@ html{
     background-color: #fff;
     border: 2px solid rgb(60, 91, 175);
     transition: .4s all;
+    line-height: 30px;
 }
 
 #scrollKey:hover{
