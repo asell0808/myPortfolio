@@ -15,6 +15,14 @@ html{
     scroll-behavior: smooth;
 }
 
+#scrollKey{
+    position: fixed;
+    font-size: 300%;
+    color: rgb(60, 91, 175);
+    z-index: 2;
+    float: right;
+}
+
 body{
     background-color: #fff;
     margin: 0px auto;
