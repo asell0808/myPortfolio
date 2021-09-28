@@ -26,7 +26,15 @@ html{
     padding: 10px;
     border-radius: 50%;
     background-color: #fff;
-    border: 2px solid grey;
+    border: 2px solid rgb(60, 91, 175);
+    transition: .4s all;
+}
+
+#scrollKey:hover{
+    transition: .4s all;
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+     border: 2px solid rgb(60, 91, 175);
 }
 
 body{
