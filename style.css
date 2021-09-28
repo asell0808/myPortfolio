@@ -23,10 +23,10 @@ html{
     bottom: .75rem;
     right: .75rem;
     text-decoration: none;
-    padding 1rem;
+    padding: 20px;
     border-radius: 60px;
     background-color: #fff;
-    border: 1px solid grey;
+    border: 2px solid grey;
 }
 
 body{
