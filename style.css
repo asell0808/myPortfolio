@@ -242,7 +242,7 @@ body{
     transition: .4s all;
     color: rgb(60, 91, 175);
     background-color:#fff; 
-    border: 1px solid grey;
+    border: 1px solid rgb(60, 91, 175);
     z-index: -1;
 }
 
@@ -265,7 +265,7 @@ body{
     text-align: center;
     padding-left:25%;
     padding-right:25%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 #skillZone ul{
@@ -304,6 +304,11 @@ body{
     margin-top: 100px;
 }
 
+#contactHeader{
+    margin-top: 40px;
+    text-align: center;
+}
+
 #contact a{
     margin: 10px;
     padding: 10px;
@@ -312,6 +317,7 @@ body{
 }
 
 #contactForm{
+    margin-top: -60px;
     background-color: rgb(216, 216, 216);
     padding: 40px 100px 40px 100px;
     border-radius: 4px;
@@ -326,7 +332,14 @@ body{
     margin: 10px 0px 24px 0px;
     border-radius: 4px;
     padding: 10px 70px 10px 10px;
-    border: none;
+    border: 2px solid rgb(216, 216, 216);
+    transition: .4s all;
+}
+
+#contactForm  input:hover{
+    border: 2px solid rgb(145, 145, 145);
+    transition: .4s all;
+    background-color: rgb(243, 243, 243);
 }
 
 #my-form-button{
@@ -351,10 +364,18 @@ body{
 
 #formMessage{
     height: 120px;
-    margin-bottom: 20px;
+    margin: 10px 0px 20px 0px;
     border: none;
     border-radius: 4px;
     padding: 10px 70px 0px 10px;
+    border: 2px solid rgb(216, 216, 216);
+    transition: .4s all;
+}
+
+#formMessage:hover{
+    border: 2px solid rgb(145, 145, 145);
+    transition: .4s all;
+    background-color: rgb(243, 243, 243);
 }
 
 /* Contact End */
