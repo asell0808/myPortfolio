@@ -28,6 +28,8 @@ html{
     background-color: #fff;
     border: 2px solid rgb(60, 91, 175);
     transition: .4s all;
+    height: 60px;
+    width: 60px;
     line-height: 60px;
 }
 
