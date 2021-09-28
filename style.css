@@ -16,11 +16,17 @@ html{
 }
 
 #scrollKey{
-    position: fixed;
-    font-size: 300%;
+    position: absolute;
+    font-size: 200%;
     color: rgb(60, 91, 175);
     z-index: 2;
-    float: right;
+    bottom: .75rem;
+    right: .75rem;
+    text-decoration: none;
+    padding 1rem;
+    border-radius: 60px;
+    background-color: #fff;
+    border: 1px solid grey;
 }
 
 body{
