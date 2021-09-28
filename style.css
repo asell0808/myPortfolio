@@ -299,7 +299,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 50%;
-    text-align: center;
     padding-left:25%;
     padding-right:25%;
     margin-top: 100px;
@@ -312,10 +311,37 @@ body{
     color: rgb(138, 138, 138);
 }
 
-#emailMe{
-    border: 1px solid rgb(138, 138, 138);
+#contactForm{
+    background-color: rgb(216, 216, 216);
+    padding: 40px 100px 40px 100px;
     border-radius: 4px;
-    white-space: nowrap;
+    color: #000;
+}
+
+#contactForm label{
+    font-size: 120%;
+}
+
+#contactForm  input{
+    margin: 10px 0px 30px 0px;
+    border-radius: 4px;
+    padding: 10px 40px 10px 40px;
+    border: none;
+}
+
+#my-form-button{
+    padding: 10px 80px 10px 80px;
+    border: none;
+    background-color:rgb(60, 91, 175) ;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+#formMessage{
+    white-space: pre-line;
+    
 }
 /* Contact End */
 
