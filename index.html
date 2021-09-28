@@ -45,13 +45,13 @@
             <div id="nav">
                 <ul class="dmNav">
                     <li>
-                        <a class="dmNav" id="nav1" href="#projectColumn">projects</a>
+                        <a class="dmNav" id="nav1" href="#resumeIcon2">projects</a>
                     </li>
                     <li>
-                        <a class="dmNav" id="nav2" href="#skillZone">skills</a>
+                        <a class="dmNav" id="nav2" href="#skillScroll">skills</a>
                     </li>
                     <li>
-                        <a class="dmNav" id="nav3" href="#contact">contact</a>
+                        <a class="dmNav" id="nav3" href="#contactScroll">contact</a>
                     </li>
                     <li title="Light mode and dark mode placeholder">
                         <a class="dmNav" id="nav4" id="lmdm"  onclick="lmdm();" href="#home">lmdm</a>
@@ -116,7 +116,7 @@
                     <li>DOM</li>
                     <li>Javascript</li>
                 </ul>
-                <a href="https://github.com/asell0808/backgroundColorGenerator">Github</a>
+                <a id="skillScroll" href="https://github.com/asell0808/backgroundColorGenerator">Github</a>
             </div>
             </div>
         </div>  
@@ -124,7 +124,7 @@
 
     <!-- Skills -->
         <div id="skillZone">
-            <h1>SKILLS</h1>
+            <h1 id="skillScroll">SKILLS</h1>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -147,19 +147,20 @@
             <ul>
                 <li>Computer Science</li>
                 <li>Front End</li>
-                <li>Mobile Dev</li>
+                <li id="contactScroll">Mobile Dev</li>
             </ul>
         </div>
-
 
     <!-- Contact -->
     <div class="container">
         <div id="contact">
-            <h1>CONTACT ME</h1>
             <div id="resume">
                 <!-- https://formspree.io/forms/mvodlepp/integration -->
                 <!-- modify this form HTML and place wherever you want your form -->
                 <div id="contactForm">
+                    <div id="contactHeader">
+                        <h1>CONTACT ME</h1>
+                    </div>
                     <form id="my-form" action="https://formspree.io/f/mvodlepp" method="POST">
                     <label for="fName">First Name:</label>
                         <input type="text" placeholder="Your first name..." id="fName" name="firstname">
