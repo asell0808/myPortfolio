@@ -28,8 +28,8 @@ html{
     background-color: #fff;
     border: 2px solid rgb(60, 91, 175);
     transition: .4s all;
-    height: 32px;
-    width: 32px;
+    height: 24px;
+    width: 24px;
     line-height: 32px;
     text-align: center;
 }
