@@ -28,7 +28,7 @@ function lmdm(){
     resumeIcon1();
     resumeIcon2();
     navWrapper();
-    //commenting out for now, until line 49 is resolved
+    //commenting out for now, until line 90 is resolved
     //dmNav();
     project1();
     project2();
