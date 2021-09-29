@@ -57,6 +57,16 @@ body{
     color: rgb(173, 156, 187)!important;
 }
 
+.dark-modeFooter{
+    background-color: rgb(30, 24, 56)!important;
+    color: rgb(173, 156, 187)!important;
+}
+
+.dark-modeProjects{
+    background-color: rgb(45, 36, 87)!important;
+    color: rgb(173, 156, 187)!important;
+}
+
 .dark-modeNav{
     background-color: rgb(68, 62, 94)!important;
     color: rgb(173, 156, 187)!important;
@@ -68,8 +78,25 @@ body{
 }
 
 .dark-modeResume{
-    color: rgb(168, 128, 201)!important;
-    border: 2px solid rgb(168, 128, 201)!important;
+    color: #fff!important;
+    border: 2px solid rgb(169, 155, 180)!important;
+    background-color: rgb(152, 113, 179)!important;
+}
+
+.dark-modeScroll{
+    transition: .4s all!important;
+    background-color: rgb(85, 85, 85)!important;
+    color: #fff!important;
+    border: 2px solid rgb(85, 85, 85)!important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px!important;
+}
+
+.dark-modeScroll:hover{
+    transition: .4s all!important;
+    color: #fff!important;
+    border: 2px solid rgb(169, 155, 180)!important;
+    background-color: rgb(152, 113, 179)!important;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px!important;
 }
 
 .container{
@@ -106,7 +133,6 @@ body{
     text-decoration: none;
     color: rgb(60, 91, 175);
     margin-left: 80px;
-
 }
 
 #nav{
@@ -192,7 +218,7 @@ body{
         margin: 0px 0px 10px -5px;
         font-weight: bold;
     }
-  }
+}
 
 /* Nav Style End */
 
@@ -282,8 +308,7 @@ body{
     .resumeIcons{
         margin: 20px;
     }
-
-  }
+}
 
 @media only screen and (min-width:768px) and (max-width:1023px)  {
     #banner{
@@ -338,7 +363,7 @@ body{
         padding-right: 20%;
         width:70%;
     }
-  }
+}
 
 /* Banner Style End */
 
@@ -434,7 +459,7 @@ body{
         padding-right: 42%;
         width:20%;
     }
-  }
+}
 
 @media only screen and (min-width:768px) and (max-width:1023px)  {
     #projectColumn h1 {
@@ -474,7 +499,7 @@ body{
         width: 90%;
         padding: 0px 5% 0px 5%;
     }
-  }
+}
 
 /* Projects End */
 
@@ -529,7 +554,7 @@ body{
 
     #skillZone ul li{
         padding: 12px;
-        margin: 0px 6px 0px 6px;
+        margin: 0px 4px 0px 4px;
     }
 }
 
