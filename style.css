@@ -916,7 +916,8 @@ body{
 
 @media only screen and (max-width: 767px) {
     #contactForm{
-        padding: 40px 50px 40px 50px;
+        padding: 40px 70px 40px 70px;
+        margin-left: 13% ;
     }
 
     #contact{
@@ -926,7 +927,6 @@ body{
         padding-left:25%;
         padding-right:20%;
         margin-top: 100px;
-        margin-left: 4%;
     }
 }
 
