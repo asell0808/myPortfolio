@@ -117,6 +117,10 @@ body{
     z-index: 1;
 }
 
+#adjust{
+    font-size: 120%;
+}
+
 #navH1{
     display: flex;
     width: 50%;
