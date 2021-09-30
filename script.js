@@ -245,7 +245,7 @@ function contactForm(){
 
 function formButton(){
     var formButton = document.getElementById('my-form-button');
-    formButton.classList.toggle("dark-modeResume");
+    formButton.classList.toggle("dark-modeScroll");
 }
 
 function footer(){
