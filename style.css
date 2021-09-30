@@ -476,7 +476,7 @@ body{
     margin-top: -1px;
 }
 
-#about{
+.about{
    text-align: left;
    padding-top: 20px;
    line-height: 1.5rem;
@@ -523,7 +523,7 @@ body{
         padding-top: 120px;
     }
 
-    #about {
+    .about {
         padding-left: 23%;
         padding-right: 23%;
     }
@@ -547,7 +547,7 @@ body{
         padding-top: 120px;
     }
 
-    #about {
+    .about {
         padding-left: 20%;
         padding-right: 20%;
     }
@@ -581,7 +581,7 @@ body{
         font-size: 120%;
     }
 
-    #about {
+    .about {
         padding-left: 10%;
         padding-right: 10%;
         font-size: 90%;
@@ -679,7 +679,7 @@ body{
 
 }
 @media only screen and (min-width: 1024px) {
-    #about {
+    .about {
         padding-left: 23%;
         padding-right: 23%;
     }
