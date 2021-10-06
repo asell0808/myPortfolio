@@ -16,6 +16,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Scroll to top button */
 #scrollKey{
     position: fixed;
     font-size: 200%;
@@ -53,6 +54,7 @@ body{
     overflow: auto;
 }
 
+/* JavaScript function classes for DOM toggle*/
 .dark-mode{
     background-color: rgb(68, 62, 94)!important;
     color: rgb(173, 156, 187)!important;
@@ -274,6 +276,7 @@ body{
 
 /* Nav Style Start */
 
+/* Nav div */
 #navWrap{
     display: flex;
     width: 100%;
@@ -288,6 +291,7 @@ body{
     font-size: 120%;
 }
 
+/* H1/Logo */
 #navH1{
     display: flex;
     width: 50%;
@@ -306,6 +310,7 @@ body{
     margin-left: 80px;
 }
 
+/* Remaining Nav items*/
 #nav{
     display: flex;
     width: 50%;
@@ -336,7 +341,7 @@ body{
     margin-right: 40px;
 }
 
-/* This media query corrects the navigation for large screens */
+/* Media queries for screen sizes */
 
 @media only screen and (min-width: 1024px) {
     #nav {
@@ -475,6 +480,7 @@ body{
     text-decoration: none;
 }
 
+/* Media queries for screen sizes */
 @media only screen and (min-width: 1024px) {
       #banner{
         padding-left: 20%;
@@ -638,6 +644,8 @@ body{
     float: left;
 
 }
+
+/* Media queries for screen sizes */
 @media only screen and (min-width: 1024px) {
     .about {
         padding-left: 23%;
@@ -735,6 +743,7 @@ body{
     transition: .3s all;
 }
 
+/* Media queries for screen sizes */
 @media only screen and (min-width: 1700px){
     #skillZone{
         width: 30%;
@@ -866,6 +875,7 @@ body{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
+/* Media queries for screen sizes */
 @media only screen and (min-width: 1024px) {
 
 }
@@ -908,6 +918,7 @@ body{
     line-height: 80px;
 }
 
+/* Media queries for screen sizes */
 @media only screen and (min-width: 1024px) {
 
 }
