@@ -579,6 +579,7 @@ body{
     margin: 40px;
 }
 
+/* Project Squares */
 .projects{
     text-align: center;
     height: 400px;
@@ -598,6 +599,7 @@ body{
     transition: .4s all;
 }
 
+/* Projects content */
 .projects h3{
     margin-top: -20px;
 }
@@ -718,6 +720,7 @@ body{
     padding-right:27%;
 }
 
+/* Lines for skills */
 #skillZone ul{
     list-style: none;
     display: flex;
@@ -725,6 +728,7 @@ body{
     justify-content: space-around;
 }
 
+/* individual skills */
 #skillZone li{
    padding: 16px;
    border: 2px solid rgb(138, 138, 138);
